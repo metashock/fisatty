@@ -1,0 +1,17 @@
+Source: fisatty
+Section: utils
+Priority: optional
+Maintainer: Thorsten Heymann <thorsten@metashock.net>
+Uploaders: Thorsten Heymann <thorsten@metashock.net>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: gcc
+Standards-Version: 3.9.5
+Vcs-Browser: https://github.com/metashock/fisatty.git
+Vcs-Git: git://github.com/metashock/fisatty.git
+Homepage: https://github.com/metashock/fisatty.git
+
+Package: fisatty
+Architecture: all
+Depends: ${misc:Depends}
+Description: Launches a program in an environment where isatty always returns true
+ Bla Bla

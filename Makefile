@@ -15,6 +15,6 @@ uninstall:
 	rm -v /usr/bin/fisatty
 
 clean:
-	rm -v libfisatty.so*
+	rm -fv libfisatty.so*
 
 
