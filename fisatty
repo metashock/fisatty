@@ -1,0 +1,5 @@
+#!/bin/bash
+
+eval `dircolors -b`
+LD_PRELOAD="/usr/lib/libfisatty.so" $@
+
